@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="branding/installer/logo.png" alt="NEFI OS Logo" width="200">
+  <img src="branding/installer/logo.png" alt="NEFI OS Logo" width="300">
 </p>
 
 # NEFI OS
