@@ -1,4 +1,6 @@
-![NEFI OS logo](branding/installer/logo.png)
+<p align="center">
+  <img src="branding/installer/logo.png" alt="NEFI OS Logo" width="200">
+</p>
 
 # NEFI OS
 
