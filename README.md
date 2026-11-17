@@ -1,4 +1,4 @@
-![NEFI OS logo](branding/installer/)
+![NEFI OS logo](branding/installer/logo_nefi.png)
 
 # NEFI OS
 
