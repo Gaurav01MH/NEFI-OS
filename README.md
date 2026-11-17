@@ -1,3 +1,5 @@
+![NEFI OS logo](branding/installer/logo_nefi.png)
+
 # NEFI OS
 
 
@@ -8,9 +10,6 @@
 [![License: GPL v3](https://img.shields.io/github/license/nefios/NEFI-OS)](LICENSE)
 [![Status](https://img.shields.io/badge/status-pre--release-orange)](#project-status)
 [![Base](https://img.shields.io/badge/base-Debian%2013-A81D33)](https://www.debian.org/)
-
-
-![NEFI OS logo](branding/installer/logo_nefi.png)
 
 
 ## Table of contents
