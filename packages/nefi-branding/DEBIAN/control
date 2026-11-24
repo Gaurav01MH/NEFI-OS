@@ -4,7 +4,7 @@ Architecture: all
 Installed-Size: 1096
 Section: misc
 Priority: optional
-Maintainer: NEFI OS Project <emanuel2005gabriel@gmail.com>
+Maintainer: NEFI OS Project <327490202+nefios@users.noreply.github.com>
 Depends: base-files
 Description: NEFI OS branding
  System name (os-release) and GRUB background for NEFI OS.
