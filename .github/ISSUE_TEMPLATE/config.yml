@@ -1,1 +1,8 @@
 blank_issues_enabled: false
+contact_links:
+  - name: "🔒 Report a vulnerability (private)"
+    url: https://github.com/nefios/NEFI-OS/security/advisories/new
+    about: "Do not open a public issue for vulnerabilities. Report them privately here. See SECURITY.md."
+  - name: "📖 Documentation"
+    url: https://nefi-os.gitbook.io/docs
+    about: "Installation, user guide, troubleshooting and known limitations."
