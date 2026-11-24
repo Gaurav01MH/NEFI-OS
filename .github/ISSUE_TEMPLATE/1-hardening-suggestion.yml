@@ -1,0 +1,56 @@
+name: "🛡️ Hardening suggestion"
+description: A setting or default that could be more secure, with no exploitable vulnerability
+title: "[HARDENING] "
+labels: ["type: security", "severity: info", "status: triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This form is public.** Use it only for improvements that cannot be exploited, for example "this setting could be stricter".
+
+        **Found a vulnerability?** Do not use this form: report it privately from the **Security** tab → **Report a vulnerability**. See [SECURITY.md](https://github.com/nefios/NEFI-OS/blob/main/SECURITY.md).
+  - type: checkboxes
+    id: not-a-vulnerability
+    attributes:
+      label: Confirmation
+      options:
+        - label: This is not an exploitable vulnerability (otherwise I will report it privately)
+          required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options: ["Security Center (GUI/modules)", "Root helpers (/opt/nefi, pkexec)", "USB Guardian", "NEFI Guardian / Ollama", "Firewall / network", "Hardening (sysctl, AppArmor, auditd)", "Installer / ISO", "Packages / updates", "KDE / desktop", "Other"]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: NEFI OS version and environment
+      placeholder: "0.3, QEMU/KVM UEFI, 8 GB RAM"
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current behavior
+      description: The setting or default as it is today (file, service, value)
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested change
+      description: What should change, and why it is safer
+    validations:
+      required: true
+  - type: textarea
+    id: side-effects
+    attributes:
+      label: Possible side effects
+      description: Applications or features the change could break (optional)
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: CIS benchmark, Debian or upstream documentation, Lynis test ID… (optional)
