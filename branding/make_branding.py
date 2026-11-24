@@ -4,7 +4,8 @@ import os, sys, glob, json
 from PIL import Image, ImageDraw, ImageFilter
 
 HOME = os.path.expanduser("~")
-OUT = os.environ.get("NEFI_OUT", os.path.join(HOME, "nefi-os/config/includes.chroot"))
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) 
+OUT = os.environ.get("NEFI_OUT", os.path.join(REPO, "config", "includes.chroot"))
 SRC_DIRS = [os.environ.get("NEFI_SRC", ""), f"{HOME}/Downloads", f"{HOME}/Scaricati", f"{HOME}/downloads"]
 
 def find(*names):
