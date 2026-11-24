@@ -8,8 +8,8 @@ set -euo pipefail
 cd "$(dirname "$0")"
 umask 022
 VER="0.3"
-MAINT="NEFI OS Project <emanuel2005gabriel@gmail.com>"
-LB="$HOME/nefi-os"
+MAINT="NEFI OS Project <327490202+nefios@users.noreply.github.com>"
+LB="${NEFI_REPO:-$(cd .. && pwd)}"
 SRC="$LB/config/includes.chroot"
 HOOKS="$LB/config/hooks/normal"
 CHROOT="$LB/chroot"
