@@ -19,11 +19,11 @@
 </p>
 
 <p align="center">
-  <a href="https://nefi-os.gitbook.io/docs"><b>📖 Read the documentation</b></a>
+  📖<a href="https://nefi-os.gitbook.io/docs"><b>Read the documentation</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/nefios/NEFI-OS/releases"><b>⬇️ Download</b></a>
+  ⬇️<a href="https://github.com/nefios/NEFI-OS/releases"><b>Download</b></a>
   &nbsp;·&nbsp;
-  <a href="https://nefi-os.gitbook.io/docs/project/development/contributing"><b>🤝 Contribute</b></a>
+  🤝<a href="https://nefi-os.gitbook.io/docs/project/development/contributing"><b>Contribute</b></a>
 </p>
 
 ---
