@@ -13,7 +13,7 @@ for dir in */; do
   [ -f "$pkg/DEBIAN/control" ] || continue
   chmod -R go-w "$pkg"   # No NEFI files can be modified by regular users.
   rm -f out/"${pkg}"_*.deb
-  sed -i -E "s/^Version: ([^+]*).*/Version: \\1+$STAMP/" "$pkg/DEBIAN/control"
+  sed -i -E "s/^Version: ([^+]*).*/Version: \1+$STAMP/" "$pkg/DEBIAN/control"
   size="$(du -sk --exclude=DEBIAN "$pkg" | cut -f1)"
   sed -i '/^Installed-Size:/d' "$pkg/DEBIAN/control"
   sed -i "/^Architecture:/a Installed-Size: $size" "$pkg/DEBIAN/control"
